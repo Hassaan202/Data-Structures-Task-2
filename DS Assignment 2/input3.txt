@@ -1,0 +1,9 @@
+#Chapter 1 
+
+#Page 1
+
+After these operations are precisely specified, the implementation of the program may start. The 
+implementation decides which data structure should be used to make execution most efficient in terms of 
+time and space. The study of data structures, a fundamental component of a computer science education, 
+serves as the foundation upon which many other computer science fields are built.
+An item specified in terms of operations is called an abstract data type.

@@ -1,0 +1,59 @@
+#Chapter 1 
+
+#Page 1
+
+The study of data structures, a fundamental component of a computer science education, serves as the 
+foundation upon which many other computer science fields are built. Some knowledge of data structures is a 
+must for students who wish to do work in design, implementation, testing, or maintenance of virtually any 
+software system. The scope and presentation of material in Data Structures and Algorithms in C++ provide 
+students with the necessary knowledge to perform such work.
+
+#Page 2
+
+This book highlights three important aspects of data structures. First, a very strong emphasis is placed on the 
+connection between data structures and their algorithms, including analyzing algorithms’ complexity. Second, 
+data structures are presented in an object-oriented setting in accordance with the current design and 
+implementation paradigm. In particular, the information-hiding principle to advance encapsulation
+and decomposition is stressed. Finally, an important component of the book is data structure implementation,
+which leads to the choice of C++ as the programming language. 
+The C++ language, an object-oriented descendant of C, is widespread in industry and academia as an excellent 
+programming language. It is also useful and natural for introducing data structures. Therefore, because of the 
+wide use of C++ in application programming and the object-oriented characteristics of the language, using 
+C++ to teach a data structures and algorithms course, even on the introductory level, is well justified. 
+Most chapters include a case study that illustrates a complete context in which certain algorithms and data 
+structures can be used. These case studies were chosen from different areas of computer science such as 
+interpreters, symbolic computation, and file processing, to indicate the wide range of applications to
+which topics under discussion may apply.
+
+#Page 3
+
+Brief examples of C++ code are included throughout the book to illustrate the practical importance of data 
+structures. However, theoretical analysis is equally important, so presentations of algorithms are integrated 
+with analyses of efficiency.
+The thrust of this book is data structures, and other topics are treated here only as much as necessary to 
+ensure a proper understanding of this subject. Algorithms are discussed from the perspective of data 
+structures, so the reader will not find a comprehensive discussion of different kinds of algorithms and all the 
+facets that a full presentation of algorithms requires. However, as mentioned, recursion is covered in depth.
+In addition, complexity analysis of algorithms is presented in some detail.
+
+#Chapter 2
+
+#Page 4
+
+Before a program is written, we should have a fairly good idea of how to accomplish the task being 
+implemented by this program. Hence, an outline of the program containing its requirements should precede 
+the coding process. The larger and more complex the project, the more detailed the outline phase should be.
+The implementation details should be delayed to the later stages of the project. In particular, the details of the
+particular data structures to be used in the implementation should not be specified at the beginning.
+From the start, it is important to specify each task in terms of input and output. At the beginning stages, we 
+should be more concerned with what the program should do, not how it should or could be done. Behavior of 
+the program is more important than the gears of the mechanism accomplishing it. For example, if an item is 
+needed to accomplish some tasks, the item is specified in terms of operations performed on it rather than in 
+terms of its inner structure. These operations may act upon this item, for example, modifying it, searching for 
+some details in it, or storing something in it. After these operations are precisely specified, the implementation of the program may start. The 
+implementation decides which data structure should be used 
+to make execution most efficient in terms of time and space. An item specified in terms of operations is called 
+an abstract data type. An abstract data type is not a part of a program, because a program written in a 
+programming language requires the definition of a data structure, not just the operations on the data 
+structure. However, an object oriented language (OOL) such as C++ has a direct link to abstract data types by 
+implementing them as a class.

@@ -1,0 +1,6 @@
+#Chapter 1 
+
+#Page 1
+
+The study of data structures, a fundamental component of a computer science education, serves as the 
+foundation upon which many other computer science fields are built.

@@ -1,0 +1,21 @@
+#Chapter 1
+#Page 1
+It is impossible to go to a particular position of any text file and be certain that this is a starting position of the fifth word of the file.
+Ideally, we want to go directly to a certain position of the file and be sure that the fifth word begins in it.
+The problem is caused by the lengths of the preceding words and sequences of blanks.
+If we know that each word occupies the same amount of space, then it is possible to go directly to the fifth word by going to the position four.
+But because words are of various lengths, this can be accomplished by assigning the same number of bytes to each word.
+#Page 2
+if a word is shorter, some padding characters are added to fill up the remaining space; if it is longer, then the word is trimmed.
+In this way, a new organization is imposed on the file. 
+The file is now treated not merely as a collection of bytes, but as a collection of records; in our example, each record consists of one word.
+If a request comes to access the fifth word, the word can be directly accessed without looking at the preceding words. 
+#Chapter 2
+#Page 3
+With the new organization, we created a random access file.
+A random access file allows for direct access of each record.
+The records usually include more items than one word.
+The preceding example suggests one way of creating a random access file, namely, by using fixed-length records. 
+#Page 4
+Our task in this case study is to write a generic program that generates a random access file for any type of record.
+
